@@ -1,8 +1,20 @@
 title {
   font-family: "Georgia";
+  color: #abd827;
+  font-size: 21px;
 }  
 body {
   background: #A9A9A9;
 }
-    
+*p {
+  color: #abd827;
+  font-family: "Georgia";
+  font-size: 18x;
+}
+#ft
+  color: #b5eb14;
+  font-family: "Georgia";
+  font-size: 15px;
+}
+
   
