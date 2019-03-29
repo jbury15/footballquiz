@@ -4,15 +4,15 @@ title {
   font-size: 21px;
 }  
 body {
-  background: #A9A9A9;
+  background: #000000;
 }
 *p {
-  color: #abd827;
+  color: #00FF00;
   font-family: "Georgia";
   font-size: 18x;
 }
 #ft {
-  color: #b5eb14;
+  color: #00FF00;
   font-family: "Georgia";
   font-size: 15px;
 }
