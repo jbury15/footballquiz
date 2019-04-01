@@ -20,7 +20,7 @@ function check(){
   if (question3 == "0") {
        correct++;
      }
-if (question4 == "5") {
+  if (question4 == "5") {
        correct++;
      }
   if (question5 == "0") {
@@ -41,3 +41,28 @@ if (question4 == "5") {
   if (question10== "3") {
        correct++;
      }
+
+  var messages = ["Great Job!", "That's just decent", "Your football knowledge is awful"];
+  
+  var range;
+  
+    if (correct < 3) {
+      range = 2;
+    }
+  
+    if (correct > 0 && correct < 7) {
+      score = 1;
+    }
+  
+    if (correct > 8) {
+      score = 0;
+    }
+  
+  
+  document.getElementById("after_submit1").style.visibility = "visible";
+  
+  
+  
+  document.getElementById("message").innerHTML = message[range];
+  document.getElementByID("number_correct").innerHTML = "You got " + correct + " correct.";
+}g
