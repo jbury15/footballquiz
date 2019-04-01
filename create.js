@@ -17,28 +17,28 @@ function check(){
     if (question2 == "6") {
        correct++;
      }
-  if (question3 == "0") {
+    if (question3 == "0") {
        correct++;
      }
-  if (question4 == "5") {
+    if (question4 == "5") {
        correct++;
      }
-  if (question5 == "0") {
+    if (question5 == "0") {
        correct++;
      }
-  if (question6 == "5") {
+    if (question6 == "5") {
+        correct++;
+     }
+    if (question7 == "1") {
        correct++;
      }
-  if (question7 == "1") {
+    if (question8 == "0") {
        correct++;
      }
-  if (question8 == "0") {
+    if (question9 == "1") {
        correct++;
      }
-  if (question9 == "1") {
-       correct++;
-     }
-  if (question10== "3") {
+    if (question10== "3") {
        correct++;
      }
 
@@ -65,4 +65,4 @@ function check(){
   
   document.getElementById("message").innerHTML = message[range];
   document.getElementByID("number_correct").innerHTML = "You got " + correct + " correct.";
-}g
+}
