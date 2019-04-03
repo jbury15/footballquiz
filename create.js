@@ -1,14 +1,14 @@
 function check(){
-  var question1 = document.quiz.question1;
-  var question2 = document.quiz.question2;
-  var question3 = document.quiz.question3;
-  var question4 = document.quiz.question4;
-  var question5 = document.quiz.question5;
-  var question6 = document.quiz.question6;
-  var question7 = document.quiz.question7;
-  var question8 = document.quiz.question8;
-  var question9 = document.quiz.question9;
-  var question10 = document.quiz.question10;
+  var question1 = document.getElementById("q1").question1;
+  var question2 = document.getElementById("q2").question1;
+  var question3 = document.getElementById("q3").question1;
+  var question4 = document.getElementById("q4").question1;
+  var question5 = document.getElementById("q5").question1;
+  var question6 = document.getElementById("q6").question1;
+  var question7 = document.getElementById("q7").question1;
+  var question8 = document.getElementById("q8").question1;
+  var question9 = document.getElementById("q9").question1;
+  var question10 = document.getElementById("q10").question1;
   var correct = 0;
   
      if (question1 == "4") {
@@ -41,7 +41,7 @@ function check(){
     if (question10== "3") {
        correct++;
      }
-
+  console.log(correct)
   var messages = ["Great Job!", "That's just decent", "Your football knowledge is awful"];
   
   var range;
@@ -50,15 +50,15 @@ function check(){
       range = 2;
     }
   
-    if (correct > 0 && correct < 7) {
-      score = 1;
+    if (correct >= 3 && correct < 7) {
+      range = 1;
     }
   
-    if (correct > 8) {
-      score = 0;
+    if (correct >= 7) {
+      range = 0;
     }
   
   
-  document.getElementById("message").innerHTML = message[range];
+  document.getElementById("message").innerHTML = messages[range];
   document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 }
