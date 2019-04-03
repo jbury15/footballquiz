@@ -61,5 +61,5 @@ function check(){
   document.getElementbyId("after_submit").style.visibility = "visible";
   
   document.getElementById("message").innerHTML = message[range];
-  document.getElementByID("number_correct").innerHTML = "You got " + correct + " correct.";
+  document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 }
