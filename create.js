@@ -58,6 +58,8 @@ function check(){
       score = 0;
     }
   
+  document.getElementbyId("after_submit").style.visibility = "visible";
+  
   document.getElementById("message").innerHTML = message[range];
   document.getElementByID("number_correct").innerHTML = "You got " + correct + " correct.";
 }
