@@ -1,14 +1,14 @@
 function check(){
-  var question1 = document.getElementById("q1").question1;
-  var question2 = document.getElementById("q2").question1;
-  var question3 = document.getElementById("q3").question1;
-  var question4 = document.getElementById("q4").question1;
-  var question5 = document.getElementById("q5").question1;
-  var question6 = document.getElementById("q6").question1;
-  var question7 = document.getElementById("q7").question1;
-  var question8 = document.getElementById("q8").question1;
-  var question9 = document.getElementById("q9").question1;
-  var question10 = document.getElementById("q10").question1;
+  var question1 = document.getElementById("q1").value;
+  var question2 = document.getElementById("q2").value;
+  var question3 = document.getElementById("q3").value;
+  var question4 = document.getElementById("q4").value;
+  var question5 = document.getElementById("q5").value;
+  var question6 = document.getElementById("q6").value;
+  var question7 = document.getElementById("q7").value;
+  var question8 = document.getElementById("q8").value;
+  var question9 = document.getElementById("q9").value;
+  var question10 = document.getElementById("q10").value;
   var correct = 0;
   
      if (question1 == "4") {
