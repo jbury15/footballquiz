@@ -1,5 +1,6 @@
 function check(){
   alert("Scroll down to see your score")
+  var name = prompt("Enter your name")
   var question1 = document.getElementById("q1").value;
   var question2 = document.getElementById("q2").value;
   var question3 = document.getElementById("q3").value;
@@ -61,5 +62,5 @@ function check(){
   
   
   document.getElementById("message").innerHTML = messages[range];
-  document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+  document.getElementById("number_correct").innerHTML = name + " got " + correct + " correct.";
 }
