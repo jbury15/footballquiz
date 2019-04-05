@@ -20,4 +20,8 @@ p {
   color: #00FF00;
   font-family: "Georgia";
   font-size: 18x;
+}
+* {
+  text-align: center;
+}
   
