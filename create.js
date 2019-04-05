@@ -1,4 +1,5 @@
 function check(){
+  alert("Scroll down to see your score")
   var question1 = document.getElementById("q1").value;
   var question2 = document.getElementById("q2").value;
   var question3 = document.getElementById("q3").value;
